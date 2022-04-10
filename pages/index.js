@@ -16,10 +16,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  console.log(
-    "🚀 ~ file: index.js ~ line 15 ~ Home ~ allPostsData",
-    allPostsData
-  );
 
   return (
     <Layout home>
